@@ -1,6 +1,6 @@
 # LEARN REACT JS
 
-## Variable in React Js
+### `Variable in React Js`
 
 ```
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <div className = "content">
         <h1>Hello , Rasdi</h1>
-        <h1>{title}</h1> //=> {} call in variable in React Js
+        <h1>{title}</h1> // @@=> {} call in variable in React Js
         <p>My Likes {likes} Times</p>
       </div>
 
@@ -20,4 +20,5 @@ function App() {
   );
 }
 ```
+
 
