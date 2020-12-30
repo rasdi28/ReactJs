@@ -9,7 +9,6 @@ const Home = () => {
 
     }
 
-
     return (
         <div className = "home">
             <h2> This is Home</h2>
@@ -18,6 +17,7 @@ const Home = () => {
             <button onClick={(e)=>handleClickAgain('rasdi')
             } > Click Me Again</button>
         </div>
+        
       );
 }
  
