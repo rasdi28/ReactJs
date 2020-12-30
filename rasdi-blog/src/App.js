@@ -10,7 +10,10 @@ function App() {
       <div className = "content">
       <Home />
       </div>
+      <div className = "footer">
       <Footer />
+      </div>
+
 
     </div>
   );
