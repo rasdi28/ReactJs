@@ -3,29 +3,21 @@
 /* base styles  */
 
 * {
-  margin: 20px;
   font-family: "quicksand";
-  color: #333;
+  color:white;
+  background-color: #009FFD;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
-  background-color: #333;
-
-}
 
 
-.navbar h1:hover {
-  color: green
 }
 
 .footer {
   margin: 20px 40px 20px 40px;
   padding: 5px;
-  background-color: black;
   font-size: 12px;
 }
 
@@ -35,29 +27,30 @@
 }
 
 .navbar .links {
-  margin-left: auto;
+  margin-left: 80px;
+  margin-top: 30px;
 
 
 }
 
-.navbar img {
-  width: 15%;
-}
 
 .navbar a {
   color: white;
-  margin-left: 10px;
+  font-size: 20px;
+  margin: 20px;
   text-decoration: none;
-  padding: 6px;
-  border: solid;
-  background-color: #4CAF50;
+ 
+
+
 
 }
 
 .navbar a:hover {
+  background-color:#FFA400;
+  border: 1px;
   color: white;
-
-
+  border-radius: 5px solid;
+  font-style: bold;
 
 }
 
